@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@types/node@^14.14.31":
+  version "14.14.31"
+  resolved "https://registry.npm.taobao.org/@types/node/download/@types/node-14.14.31.tgz?cache=0&sync_timestamp=1613759167739&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40types%2Fnode%2Fdownload%2F%40types%2Fnode-14.14.31.tgz#72286bd33d137aa0d152d47ec7c1762563d34055"
+  integrity sha1-cihr0z0TeqDRUtR+x8F2JWPTQFU=
+
 array-source@0.0:
   version "0.0.4"
   resolved "https://registry.npm.taobao.org/array-source/download/array-source-0.0.4.tgz#a525df4a84b1376d27c677cd426a97c3882f8aca"
@@ -52,6 +57,11 @@ inherits@^2.0.3:
   version "2.0.4"
   resolved "https://registry.npm.taobao.org/inherits/download/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w=
+
+lodash@^4.17.20:
+  version "4.17.20"
+  resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
+  integrity sha1-tEqbYpe8tpjxxRo1RaKzs2jVnFI=
 
 path-source@0.1:
   version "0.1.3"

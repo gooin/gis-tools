@@ -1,0 +1,12 @@
+build/**
+!build/README.md
+node_modules/**
+.svn/**
+nginx/**
+package-lock.json
+yarn-error.log
+.vscode
+.idea
+debug.log
+build.zip
+.history
