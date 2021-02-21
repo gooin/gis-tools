@@ -18,14 +18,14 @@ let generete_arc = require('./src/generate_arc')
 /**
  * 分类json数据为geojson
  */
-// const jsonFile = './example-datas/jiangsu_migration.json';
-// const savedFile = './example-datas/jiangsu_migration_sorted_by_city_geojson.json';
-// sort_migration_json(jsonFile, savedFile);
+const jsonFile = './example-datas/jiangsu_migration.json';
+const savedFile = './example-datas/jiangsu_migration_sorted_by_city_geojson.json';
+sort_migration_json(jsonFile, savedFile);
 
 
 /**
  * 创建arc所需的数据
  */
-const jsonFile = './example-datas/deckgl_example_arc.json';
-const arc = generete_arc(jsonFile)
-console.log('arc :>> ', arc);
+// const jsonFile = './example-datas/deckgl_example_arc.json';
+// const arc = generete_arc(jsonFile)
+// console.log('arc :>> ', arc);

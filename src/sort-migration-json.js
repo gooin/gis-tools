@@ -11,7 +11,7 @@ const sort_migration_json = (jsonFile, targetFile) => {
         // console.log('val :>> ', val);
         // 取前两个字相同
         let { name, from, to } = val
-        const coordinates = [to.split(',')[0], to.split(',')[1]]
+        const coordinates = [to.split(',')[0] * 1, to.split(',')[1] * 1]
 
         let city = name.substring(0, 2);
         // 处理三个字的城市
@@ -36,9 +36,10 @@ const sort_migration_json = (jsonFile, targetFile) => {
             )
         } else {
             // 每个相同的城市，点放到geojson中去
+            const lonlat = from.split(',')
             let dataStructure = {
                 city: city,
-                from: from,
+                from: [lonlat[0] * 1, lonlat[1] * 1],
                 geojson: {
                     "type": "FeatureCollection",
                     "features": [
@@ -62,7 +63,7 @@ const sort_migration_json = (jsonFile, targetFile) => {
     // debugger;
     console.log('category :>> ', category);
     // 写入文件
-    fs.writeFileSync(targetFile,JSON.stringify(category));
+    fs.writeFileSync(targetFile, JSON.stringify(category));
 }
 
 module.exports = sort_migration_json;
