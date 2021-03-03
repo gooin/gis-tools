@@ -186,6 +186,11 @@ string_decoder@^1.1.1:
   dependencies:
     safe-buffer "~5.2.0"
 
+suncalc@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.npm.taobao.org/suncalc/download/suncalc-1.8.0.tgz#1d9898109563078750f4994a959e654d876acbf5"
+  integrity sha1-HZiYEJVjB4dQ9JlKlZ5lTYdqy/U=
+
 text-encoding@^0.6.4:
   version "0.6.4"
   resolved "https://registry.npm.taobao.org/text-encoding/download/text-encoding-0.6.4.tgz#e399a982257a276dae428bb92845cb71bdc26d19"
