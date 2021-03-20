@@ -10,3 +10,4 @@ yarn-error.log
 debug.log
 build.zip
 .history
+example-datas/**
